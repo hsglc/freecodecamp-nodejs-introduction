@@ -1,29 +1,14 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": "Huseyin Gulcu",
-	"description": "A project that implies nodejs's practices",
-	"keywords": ["freecodecamp","nodejs"],
+	"name": "fcc-learn-node-with-express",
+	"version": "0.1.0",
 	"dependencies": {
-		"express": "^4.14.0"
-		
+		"express": "^4.14.0",
+		"body-parser": "^1.15.2",
+		"cookie-parser": "^1.4.3",
+		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
 	},
-
-	"license": "MIT",
-	"version": "1.2.0",
-
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
-	},
-
-	"engines" : {
-		"node" : "8.11.2"
-	},
-
-	
-	
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
 	}
 }
