@@ -18,6 +18,11 @@
 	"engines" : {
 		"node" : "8.11.2"
 	},
+
+	"dependencies" : {
+		"moment": "2.14.0"
+	},
+	
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
